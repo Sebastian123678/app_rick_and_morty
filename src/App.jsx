@@ -15,7 +15,7 @@ function App() {
     getLocation()
   }, [inputValue])
 
-  console.log(location);
+  //console.log(location);
 
   const inputSearch = useRef()
 
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className='main'>
-      <img src="../public/Imagen1.png" alt="Rick and morty" />
+      <img src="../public/Imagen1.png" alt="rick-morty" />
       <h1>Rick and Morty App</h1>
       <form onSubmit={handleSubmit} className='form'>
         <input ref={inputSearch} type="text" className='form_search' placeholder="1 - 126"/>
@@ -52,7 +52,6 @@ function App() {
               </div>
             </>
           )
-          
       }
     </div>
   )
