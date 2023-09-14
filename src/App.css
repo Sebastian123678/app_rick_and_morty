@@ -6,6 +6,11 @@
     gap: 2em;
     align-items: center;
 }
+.img_rick{
+    height: 280px;
+    max-height: 100%;
+    max-width: 100%;
+}
 h1 {
     text-align: center;
 }

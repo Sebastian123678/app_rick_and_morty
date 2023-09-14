@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className='main'>
-      <img src="../public/Imagen1.png" alt="rick-morty" />
+      <img className='img_rick' src="https://www.formulatv.com/images/series/1000/1524-f.jpg" alt="rick-morty" />
       <h1>Rick and Morty App</h1>
       <form onSubmit={handleSubmit} className='form'>
         <input ref={inputSearch} type="text" className='form_search' placeholder="1 - 126"/>
